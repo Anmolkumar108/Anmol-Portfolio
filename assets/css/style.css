@@ -1,0 +1,146 @@
+/*======================================
+            CSS RESET
+======================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:var(--font);
+
+    background:var(--bg);
+
+    color:var(--white);
+
+    overflow-x:hidden;
+
+    line-height:1.6;
+
+}
+
+/*======================================
+        DEFAULT STYLES
+======================================*/
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+li{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-family:inherit;
+}
+
+input,
+textarea{
+    border:none;
+    outline:none;
+    font-family:inherit;
+}
+
+/*======================================
+        SECTION
+======================================*/
+
+section{
+
+    width:100%;
+
+    min-height:100vh;
+
+    padding:100px 8%;
+
+    position:relative;
+
+}
+
+/*======================================
+        CONTAINER
+======================================*/
+
+.container{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+/*======================================
+        CUSTOM SCROLLBAR
+======================================*/
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0b1120;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:linear-gradient(#7c3aed,#06b6d4);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#7c3aed;
+
+}
+
+/*======================================
+        TEXT SELECTION
+======================================*/
+
+::selection{
+
+    background:#7c3aed;
+
+    color:#fff;
+
+}
+
+/*======================================
+        PLACEHOLDER
+======================================*/
+
+#loader,
+.cursor,
+#progress-bar,
+.background{
+
+    position:fixed;
+
+    z-index:9999;
+
+}

@@ -1,0 +1,61 @@
+/*==============================
+        GOOGLE FONT
+==============================*/
+
+:root{
+
+    /*========== COLORS ==========*/
+
+    --primary:#7c3aed;
+    --secondary:#06b6d4;
+    --accent:#3b82f6;
+
+    --bg:#050816;
+    --bg2:#0f172a;
+
+    --white:#ffffff;
+    --text:#d1d5db;
+    --text-light:#94a3b8;
+
+    --success:#22c55e;
+    --warning:#f59e0b;
+    --danger:#ef4444;
+
+    /*========== GRADIENTS ==========*/
+
+    --gradient-1:linear-gradient(135deg,#7c3aed,#3b82f6);
+
+    --gradient-2:linear-gradient(135deg,#06b6d4,#3b82f6);
+
+    --gradient-3:linear-gradient(135deg,#7c3aed,#06b6d4);
+
+    /*========== FONT ==========*/
+
+    --font:'Poppins',sans-serif;
+
+    /*========== FONT SIZE ==========*/
+
+    --fs-h1:64px;
+    --fs-h2:48px;
+    --fs-h3:32px;
+
+    --fs-lg:22px;
+    --fs-md:18px;
+    --fs-sm:16px;
+
+    /*========== BORDER RADIUS ==========*/
+
+    --radius-sm:10px;
+    --radius-md:18px;
+    --radius-lg:30px;
+    --radius-xl:50px;
+
+    /*========== SHADOW ==========*/
+
+    --shadow:0 10px 40px rgba(0,0,0,.35);
+
+    /*========== TRANSITION ==========*/
+
+    --transition:.4s ease;
+
+}

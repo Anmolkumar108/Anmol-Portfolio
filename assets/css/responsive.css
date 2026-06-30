@@ -1,0 +1,33 @@
+/*==================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:992px){
+
+    section{
+
+        padding:80px 6%;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    section{
+
+        padding:70px 5%;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    section{
+
+        padding:60px 20px;
+
+    }
+
+}
