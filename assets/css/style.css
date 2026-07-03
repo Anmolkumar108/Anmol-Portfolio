@@ -294,3 +294,36 @@ section{
     box-shadow:0 20px 45px rgba(0,212,255,.45);
 }
 
+/* Secondary Button */
+.btn-secondary{
+    background:rgba(255,255,255,.05);
+    color:#fff;
+    border:1px solid rgba(255,255,255,.10);
+    backdrop-filter:blur(18px);
+}
+
+.btn-secondary:hover{
+    transform:translateY(-8px);
+    border-color:#06b6d4;
+    background:rgba(255,255,255,.08);
+}
+
+/* Shine Effect */
+.btn-primary::before,
+.btn-secondary::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-120%;
+    width:60%;
+    height:100%;
+    background:rgba(255,255,255,.25);
+    transform:skewX(-25deg);
+    transition:.7s;
+}
+
+.btn-primary:hover::before,
+.btn-secondary:hover::before{
+    left:140%;
+}
+
