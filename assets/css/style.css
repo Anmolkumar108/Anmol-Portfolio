@@ -204,3 +204,36 @@ section{
     margin:auto;
 }
 
+/* Step 5: Premium Welcome Badge Fixed */
+.welcome-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:15px 28px;
+    border-radius:60px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.10);
+    backdrop-filter:blur(18px);
+    font-size:20px;
+    margin-bottom:35px;
+}
+
+/* Step 2: Premium Name/H1 Fixed */
+.hero h1{
+    font-size:105px;
+    font-weight:800;
+    line-height:1;
+    margin-bottom:30px;
+    letter-spacing:-2px;
+    background:linear-gradient(
+    90deg,
+    #ffffff,
+    #7dd3fc,
+    #38bdf8,
+    #6366f1);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow:
+    0 0 45px rgba(56,189,248,.20);
+}
+
