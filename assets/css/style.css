@@ -20,3 +20,46 @@ body{
     line-height:1.6;
 }
 
+/*======================================
+        DEFAULT STYLES
+======================================*/
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+li{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-family:inherit;
+}
+
+input,
+textarea{
+    border:none;
+    outline:none;
+    font-family:inherit;
+}
+
+/*======================================
+        SECTION
+======================================*/
+
+section{
+    width:100%;
+    min-height:100vh;
+    padding:100px 8%;
+    position:relative;
+}
+
