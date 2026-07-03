@@ -52,3 +52,24 @@ textarea{
     font-family:inherit;
 }
 
+/*======================================
+        SECTION
+======================================*/
+
+section{
+    width:100%;
+    min-height:100vh;
+    padding:100px 8%;
+    position:relative;
+}
+
+/*======================================
+        CONTAINER
+======================================*/
+
+.container{
+    width:100%;
+    max-width:1300px;
+    margin:auto;
+}
+
