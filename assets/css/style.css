@@ -327,3 +327,60 @@ section{
     left:140%;
 }
 
+/*======================================
+            HERO SOCIAL
+======================================*/
+
+.hero-social{
+    display:flex;
+    gap:18px;
+    margin-top:40px;
+    justify-content:center;
+}
+
+.hero-social a{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    color:#fff;
+    font-size:22px;
+    transition:.4s;
+    backdrop-filter:blur(15px);
+}
+
+.hero-social a:hover{
+    transform:translateY(-8px) scale(1.1);
+    color:#06b6d4;
+    box-shadow:0 0 25px rgba(6,182,212,.45);
+}
+
+.hero-left{
+    animation:fadeUp 1s ease;
+}
+
+.profile-card{
+    animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{ transform:translateY(0); }
+    50%{ transform:translateY(-18px); }
+    100%{ transform:translateY(0); }
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
