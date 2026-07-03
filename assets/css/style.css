@@ -384,3 +384,62 @@ section{
     }
 }
 
+/*======================================
+            HERO STATS
+======================================*/
+
+.hero-stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin-top:45px;
+}
+
+.stat-card{
+    padding:18px;
+    border-radius:18px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    transition:.4s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+    border-color:#06b6d4;
+    box-shadow:0 15px 35px rgba(6,182,212,.18);
+}
+
+.stat-card h3{
+    font-size:28px;
+    color:#06b6d4;
+    margin-bottom:8px;
+}
+
+.stat-card p{
+    color:#cbd5e1;
+    font-size:15px;
+}
+
+/*======================================
+       PREMIUM HERO BACKGROUND
+======================================*/
+
+.hero-background{
+    position:absolute;
+    inset:0;
+    z-index:-1;
+    overflow:hidden;
+    background:#050816;
+}
+
+/* Grid */
+.hero-background .grid{
+    position:absolute;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+    background-size:60px 60px;
+}
+
