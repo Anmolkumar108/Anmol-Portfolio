@@ -73,3 +73,45 @@ section{
     margin:auto;
 }
 
+/*======================================
+        CUSTOM SCROLLBAR
+======================================*/
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0b1120;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#7c3aed,#06b6d4);
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#7c3aed;
+}
+
+/*======================================
+        TEXT SELECTION
+======================================*/
+
+::selection{
+    background:#7c3aed;
+    color:#fff;
+}
+
+/*======================================
+        PLACEHOLDER
+======================================*/
+
+#loader,
+.cursor,
+#progress-bar,
+.background{
+    position:fixed;
+    z-index:9999;
+}
+
