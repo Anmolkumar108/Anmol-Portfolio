@@ -1507,3 +1507,39 @@ section{
 
 }
 
+.contact-social a:hover{
+
+    transform:translateY(-8px);
+
+    color:#22d3ee;
+
+    border-color:#22d3ee;
+
+    box-shadow:0 12px 25px rgba(34,211,238,.18);
+
+}
+
+.contact-form-box{
+
+    background:rgba(18,20,35,.85);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:35px;
+
+}
+
+.input-group{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
