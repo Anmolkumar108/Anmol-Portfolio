@@ -1543,3 +1543,28 @@ section{
 
 }
 
+.contact-form-box input,
+.contact-form-box textarea{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:16px 18px;
+
+    border-radius:12px;
+
+    background:#151827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:white;
+
+    outline:none;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
