@@ -238,3 +238,60 @@ section{
     0 0 45px rgba(56,189,248,.20);
 }
 
+/* Premium Typing Text Fixed */
+.hero h2{
+    font-size:48px;
+    font-weight:700;
+    color:#38bdf8;
+    margin-bottom:30px;
+    min-height:70px;
+}
+
+/* Premium Description Fixed */
+.hero p{
+    max-width:760px;
+    margin:auto;
+    font-size:23px;
+    line-height:1.9;
+    color:#bfc8d8;
+}
+
+/*======================================
+          PREMIUM HERO BUTTONS
+======================================*/
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin-top:45px;
+    flex-wrap:wrap;
+}
+
+.btn-primary,
+.btn-secondary{
+    position:relative;
+    overflow:hidden;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    padding:18px 42px;
+    border-radius:60px;
+    font-size:18px;
+    font-weight:600;
+    transition:.45s ease;
+}
+
+/* Primary Button */
+.btn-primary{
+    background:linear-gradient(135deg,#00d4ff,#7c3aed);
+    color:#fff;
+    box-shadow:0 15px 35px rgba(0,212,255,.30);
+}
+
+.btn-primary:hover{
+    transform:translateY(-8px) scale(1.05);
+    box-shadow:0 20px 45px rgba(0,212,255,.45);
+}
+
