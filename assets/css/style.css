@@ -1200,3 +1200,39 @@ section{
 
 }
 
+.edu-content p{
+
+    color:#9ca3af;
+
+    margin-bottom:25px;
+
+}
+
+.edu-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.edu-bottom span{
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.edu-bottom strong{
+
+    color:#22d3ee;
+
+}
+
