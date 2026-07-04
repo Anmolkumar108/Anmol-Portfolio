@@ -840,3 +840,39 @@ section{
     background:linear-gradient(90deg,#6366f1,#8b5cf6);
 }
 
+.progress-bar.excel{
+    width:80%;
+    background:linear-gradient(90deg,#22c55e,#16a34a);
+}
+
+.progress-bar.word{
+    width:85%;
+    background:linear-gradient(90deg,#2563eb,#06b6d4);
+}
+
+/*======================================
+      RIGHT SIDE TECHNOLOGY CARDS
+======================================*/
+
+/* Technology Cards Container Fixed */
+.tech-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+/* Technology Cards Centering Fixed */
+.tech-card{
+    background:#181c29;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    padding:28px 15px;
+    transition:.35s;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    min-height:95px;
+}
+
