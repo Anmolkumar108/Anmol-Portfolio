@@ -1568,3 +1568,18 @@ section{
 
 }
 
+.contact-form-box textarea{
+
+    resize:none;
+
+}
+
+.contact-form-box input:focus,
+.contact-form-box textarea:focus{
+
+    border-color:#22d3ee;
+
+    box-shadow:0 0 12px rgba(34,211,238,.25);
+
+}
+
