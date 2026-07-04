@@ -480,3 +480,52 @@ section{
     opacity:.12;
 }
 
+/*======================================
+          ANIMATED BACKGROUND (GLOBAL)
+======================================*/
+
+.background{
+    inset:0;
+    background:#050816;
+    overflow:hidden;
+    z-index:-10;
+}
+
+@keyframes floatOne{
+    0%,100%{ transform:translate(0,0); }
+    50%{ transform:translate(80px,60px); }
+}
+
+@keyframes floatTwo{
+    0%,100%{ transform:translate(0,0); }
+    50%{ transform:translate(-80px,-70px); }
+}
+
+/*======================================
+        SCROLL PROGRESS & EFFECTS
+======================================*/
+
+#progress-bar{
+    top:0;
+    left:0;
+    width:0;
+    height:4px;
+    background:linear-gradient(90deg,#7c3aed,#06b6d4);
+    z-index:99999;
+}
+
+.btn::before{
+    content:"";
+    position:absolute;
+    width:0;
+    height:100%;
+    background:rgba(255,255,255,.15);
+    left:0;
+    top:0;
+    transition:.5s;
+}
+
+.btn:hover::before{
+    width:100%;
+}
+
