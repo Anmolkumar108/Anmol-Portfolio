@@ -1417,3 +1417,35 @@ section{
 
 }
 
+.contact-card:hover{
+
+    transform:translateX(8px);
+
+    border-color:#22d3ee;
+
+    box-shadow:0 12px 30px rgba(34,211,238,.15);
+
+}
+
+.contact-card i{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    color:#22d3ee;
+
+    background:rgba(34,211,238,.12);
+
+}
+
