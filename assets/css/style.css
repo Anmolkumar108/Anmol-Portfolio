@@ -717,3 +717,39 @@ section{
     line-height:1.8;
 }
 
+/*======================================
+    DYNAMIC PREMIUM SECTIONS BACKGROUND
+======================================*/
+
+#skills,
+#projects,
+#education,
+#contact,
+#certificates,
+#timeline{
+    position:relative;
+    overflow:hidden;
+    background:#050816;
+}
+
+#skills .container,
+#projects .container,
+#education .container,
+#contact .container,
+#certificates .container,
+#timeline .container{
+    position:relative;
+    z-index:2;
+}
+
+#skills .hero-background,
+#projects .hero-background,
+#education .hero-background,
+#contact .hero-background,
+#certificates .hero-background,
+#timeline .hero-background{
+    position:absolute;
+    inset:0;
+    z-index:0;
+}
+
