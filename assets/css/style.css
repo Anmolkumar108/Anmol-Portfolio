@@ -876,3 +876,20 @@ section{
     min-height:95px;
 }
 
+.tech-card i{
+    font-size:34px;
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.tech-card span{
+    display:block;
+    font-size:16px;
+    font-weight:600;
+}
+
+.tech-card:hover{
+    transform:translateY(-8px);
+    border-color:#38bdf8;
+    box-shadow:0 0 30px rgba(56,189,248,.25);
+}
