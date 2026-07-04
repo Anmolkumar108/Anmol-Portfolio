@@ -1039,4 +1039,55 @@ section{
 
 .code-btn{
 
-    
+    border:1px solid rgba(255,255,255,.2);
+
+    color:white;
+}
+
+.code-btn:hover{
+
+    background:#22283b;
+}
+
+.demo-btn{
+
+    color:white;
+
+    background:linear-gradient(135deg,#18d4ff,#6b5cff);
+}
+
+.demo-btn:hover{
+
+    transform:scale(1.04);
+}
+
+/*==================================
+        EDUCATION SECTION
+==================================*/
+
+.education-timeline{
+
+    position:relative;
+    max-width:900px;
+    margin:70px auto 0;
+
+}
+
+.education-timeline::before{
+
+    content:"";
+    position:absolute;
+    left:28px;
+    top:0;
+    bottom:0;
+    width:3px;
+
+    background:linear-gradient(
+        to bottom,
+        #22d3ee,
+        #3b82f6,
+        #8b5cf6
+    );
+
+}
+
