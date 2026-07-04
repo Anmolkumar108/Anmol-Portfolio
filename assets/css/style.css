@@ -989,3 +989,54 @@ section{
     margin-bottom:22px;
 }
 
+.project-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-bottom:28px;
+}
+
+.project-tags span{
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    background:#2b3044;
+
+    color:#9dc8ff;
+
+    font-size:14px;
+}
+
+.project-buttons{
+
+    display:flex;
+
+    gap:15px;
+}
+
+.project-buttons a{
+
+    flex:1;
+
+    text-decoration:none;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.code-btn{
+
+    
