@@ -893,3 +893,27 @@ section{
     border-color:#38bdf8;
     box-shadow:0 0 30px rgba(56,189,248,.25);
 }
+
+/* ===========================
+        PROJECT SECTION
+=========================== */
+
+#projects{
+    position:relative;
+    overflow:hidden;
+    padding:120px 0;
+}
+
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+    max-width:1200px;
+
+    margin:70px auto 0;
+}
+
