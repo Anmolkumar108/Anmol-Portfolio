@@ -1609,3 +1609,16 @@ section{
 
 }
 
+.contact-form-box button i{
+
+    margin-right:10px;
+
+}
+
+.contact-form-box button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 30px rgba(59,130,246,.35);
+
+}
