@@ -1360,3 +1360,60 @@ section{
 
 }
 
+.certificate-btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+/*==================================
+        CONTACT SECTION
+==================================*/
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1.2fr;
+
+    gap:45px;
+
+    margin-top:70px;
+
+}
+
+.contact-info h3,
+.contact-form-box h3{
+
+    font-size:1.8rem;
+
+    color:white;
+
+    margin-bottom:30px;
+
+}
+
+.contact-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:22px;
+
+    margin-bottom:22px;
+
+    background:rgba(18,20,35,.85);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    transition:.35s;
+
+}
+
