@@ -1091,3 +1091,56 @@ section{
 
 }
 
+.education-card{
+
+    position:relative;
+
+    margin-left:80px;
+    margin-bottom:45px;
+
+    background:rgba(18,20,35,.82);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:28px;
+
+    transition:.4s;
+
+    overflow:hidden;
+
+}
+
+.education-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:18px;
+    height:18px;
+
+    background:#22d3ee;
+
+    border-radius:50%;
+
+    left:-62px;
+    top:38px;
+
+    box-shadow:0 0 20px #22d3ee;
+
+}
+
+.education-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#22d3ee;
+
+    box-shadow:0 20px 40px rgba(34,211,238,.15);
+
+}
+
