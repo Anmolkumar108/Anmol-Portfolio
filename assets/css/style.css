@@ -582,3 +582,83 @@ section{
     align-items:center;
 }
 
+/* My Skills Badge Center Fixed */
+.section-tag{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 24px;
+    border:1px solid rgba(0,200,255,.35);
+    border-radius:999px;
+    color:#24d6ff;
+    background:rgba(0,170,255,.08);
+    margin-bottom:25px;
+    font-size:.9rem;
+    font-weight:600;
+}
+
+.section-title h2{
+    font-size:4rem;
+    font-weight:800;
+    line-height:1.2;
+    margin-bottom:18px;
+    color:#ffffff;
+}
+
+.section-title h2 span{
+    background:linear-gradient(
+    90deg,
+    #06b6d4,
+    #3b82f6,
+    #7c3aed);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.section-title p{
+    max-width:650px;
+    line-height:1.8;
+    color:#9ea4b3;
+    margin:auto;
+}
+
+/* Centered Stats Container Configuration */
+.about-stats{
+    max-width:1200px;
+    margin:70px auto 0;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:0;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    overflow:hidden;
+    backdrop-filter:blur(18px);
+}
+
+.stat-box{
+    padding:45px 20px;
+    text-align:center;
+    transition:.4s;
+}
+
+.stat-box:not(:last-child){
+    border-right:1px solid rgba(255,255,255,.08);
+}
+
+.stat-box h3{
+    font-size:52px;
+    color:#06b6d4;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.stat-box p{
+    color:#94a3b8;
+    font-size:17px;
+}
+
+.stat-box:hover{
+    background:rgba(255,255,255,.05);
+}
+
