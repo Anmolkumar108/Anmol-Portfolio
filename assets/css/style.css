@@ -1310,3 +1310,53 @@ section{
 
 }
 
+.certificate-card h3{
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+.certificate-card p{
+
+    color:#9ca3af;
+
+    line-height:1.7;
+
+    margin-bottom:15px;
+
+}
+
+.certificate-card span{
+
+    color:#38bdf8;
+
+    font-weight:600;
+
+    display:block;
+
+    margin-bottom:25px;
+
+}
+
+.certificate-btn{
+
+    display:inline-block;
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    background:linear-gradient(90deg,#06b6d4,#6366f1);
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
