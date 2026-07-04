@@ -529,3 +529,56 @@ section{
     width:100%;
 }
 
+/*======================================
+            ABOUT SECTION
+======================================*/
+
+#about{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding:120px 8%;
+    background: #050816;
+}
+
+/* About Section Container Z-index Setup */
+#about .container{
+    position: relative;
+    z-index: 2;
+}
+
+/* Dedicated About Background Layer Configuration */
+#about .hero-background{
+    position:absolute;
+    inset:0;
+    z-index:0;
+}
+
+/* Custom About Glow Positions */
+#about .glow1{
+    top:80px;
+    left:-220px;
+}
+
+#about .glow2{
+    bottom:-150px;
+    right:-180px;
+}
+
+#about .glow3{
+    top:55%;
+    left:50%;
+}
+
+/* Section Heading (Proper Center Fixed) */
+
+.section-title{
+    width:100%;
+    max-width:800px;
+    margin:0 auto 70px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
