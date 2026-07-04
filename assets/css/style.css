@@ -1236,3 +1236,77 @@ section{
 
 }
 
+/*==================================
+        CERTIFICATES
+==================================*/
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+
+    gap:30px;
+
+    margin-top:70px;
+
+}
+
+.certificate-card{
+
+    background:rgba(18,20,35,.85);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#22d3ee;
+
+    box-shadow:0 20px 45px rgba(34,211,238,.15);
+
+}
+
+.certificate-icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    color:#22d3ee;
+
+    background:rgba(34,211,238,.12);
+
+}
+
