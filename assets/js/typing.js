@@ -2,12 +2,13 @@ new Typed("#typing", {
 
     strings: [
 
+        "| BCA Student ",
         "Aspiring Software Engineer",
-        "BCA Student",
+        "Aspiring Ethical Hacker",
+        "Aspiring Full Stack Developer",
         "Python Developer",
         "AI Developer",
-        "I know C programming",
-        "Microsoft learned"
+        ""
         
 
     ],

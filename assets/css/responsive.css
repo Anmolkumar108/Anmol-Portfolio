@@ -99,3 +99,89 @@
     }
 
 }
+
+/* ==========================
+     PROJECT RESPONSIVE
+========================== */
+
+@media (max-width:992px){
+
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+
+    .project-buttons{
+        flex-direction:column;
+    }
+
+}
+
+/*==================================
+        EDUCATION RESPONSIVE
+==================================*/
+
+@media(max-width:768px){
+
+    .education-timeline::before{
+
+        left:14px;
+
+    }
+
+    .education-card{
+
+        margin-left:45px;
+
+        padding:22px;
+
+    }
+
+    .education-card::before{
+
+        left:-38px;
+
+    }
+
+    .edu-bottom{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .certificate-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/*==================================
+        CONTACT RESPONSIVE
+==================================*/
+
+@media(max-width:992px){
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .input-group{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
