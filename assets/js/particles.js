@@ -40,4 +40,9 @@ heroBackgrounds.forEach(heroBackground => {
             if (particle.x < 0 || particle.x > width) particle.vx *= -1;
             if (particle.y < 0 || particle.y > height) particle.vy *= -1;
 
+            ctx.beginPath();
+            ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(125, 211, 252, ${particle.alpha})`;
+            ctx.fill();
+
             
