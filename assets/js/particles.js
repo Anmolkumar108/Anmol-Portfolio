@@ -64,4 +64,7 @@ heroBackgrounds.forEach(heroBackground => {
         animationFrameId = window.requestAnimationFrame(draw);
     };
 
-   
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+    draw();
+});
