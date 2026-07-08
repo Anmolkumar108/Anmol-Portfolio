@@ -19,4 +19,9 @@ heroBackgrounds.forEach(heroBackground => {
         canvas.height = height * window.devicePixelRatio;
         ctx.setTransform(window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0);
 
-       
+        const count = Math.min(70, Math.max(28, Math.floor((width + height) / 22)));
+        particles = Array.from({ length: count }, () => ({
+            x: Math.random() * width,
+            y: Math.random() * height,
+            radius: Math.random() * 1.7 + 0.5,
+            
