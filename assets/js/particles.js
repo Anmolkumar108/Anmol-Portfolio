@@ -51,4 +51,13 @@ heroBackgrounds.forEach(heroBackground => {
                 const dy = particle.y - other.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
 
-               
+                if (distance < 140) {
+                    ctx.beginPath();
+                    ctx.moveTo(particle.x, particle.y);
+                    ctx.lineTo(other.x, other.y);
+                    ctx.strokeStyle = `rgba(125, 211, 252, ${0.08 * (1 - distance / 140)})`;
+                    ctx.stroke();
+                }
+            }
+        });
+
