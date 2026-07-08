@@ -11,4 +11,12 @@ heroBackgrounds.forEach(heroBackground => {
     let particles = [];
     let animationFrameId = null;
 
-    
+    const resizeCanvas = () => {
+        const rect = heroBackground.getBoundingClientRect();
+        width = rect.width;
+        height = rect.height;
+        canvas.width = width * window.devicePixelRatio;
+        canvas.height = height * window.devicePixelRatio;
+        ctx.setTransform(window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0);
+
+       
