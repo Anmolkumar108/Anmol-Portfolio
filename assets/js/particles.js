@@ -24,4 +24,10 @@ heroBackgrounds.forEach(heroBackground => {
             x: Math.random() * width,
             y: Math.random() * height,
             radius: Math.random() * 1.7 + 0.5,
-            
+            vx: (Math.random() - 0.5) * 0.25,
+            vy: (Math.random() - 0.5) * 0.25,
+            alpha: Math.random() * 0.6 + 0.2
+        }));
+    };
+
+    
