@@ -30,4 +30,7 @@ heroBackgrounds.forEach(heroBackground => {
         }));
     };
 
-    
+    const draw = () => {
+        ctx.clearRect(0, 0, width, height);
+
+       
