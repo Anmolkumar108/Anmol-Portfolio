@@ -37,4 +37,7 @@ heroBackgrounds.forEach(heroBackground => {
             particle.x += particle.vx;
             particle.y += particle.vy;
 
+            if (particle.x < 0 || particle.x > width) particle.vx *= -1;
+            if (particle.y < 0 || particle.y > height) particle.vy *= -1;
+
             
