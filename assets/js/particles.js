@@ -45,4 +45,10 @@ heroBackgrounds.forEach(heroBackground => {
             ctx.fillStyle = `rgba(125, 211, 252, ${particle.alpha})`;
             ctx.fill();
 
-            
+            for (let j = index + 1; j < particles.length; j += 1) {
+                const other = particles[j];
+                const dx = particle.x - other.x;
+                const dy = particle.y - other.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+
+               
