@@ -33,4 +33,8 @@ heroBackgrounds.forEach(heroBackground => {
     const draw = () => {
         ctx.clearRect(0, 0, width, height);
 
-       
+        particles.forEach((particle, index) => {
+            particle.x += particle.vx;
+            particle.y += particle.vy;
+
+            
