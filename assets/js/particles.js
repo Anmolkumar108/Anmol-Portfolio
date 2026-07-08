@@ -61,3 +61,7 @@ heroBackgrounds.forEach(heroBackground => {
             }
         });
 
+        animationFrameId = window.requestAnimationFrame(draw);
+    };
+
+   
